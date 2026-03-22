@@ -289,6 +289,12 @@ footer .maker a {
     object-fit: contain;
 }
 
+.msg {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     #hero h1 {
         font-size: 1.7rem;
@@ -349,5 +355,9 @@ footer .maker a {
 
     footer {
         font-size: 0.8rem;
+    }
+
+    .msg {
+        width: 270px;
     }
 }
